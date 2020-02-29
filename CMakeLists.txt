@@ -88,6 +88,8 @@ if (WITH_DLT)
 	add_definitions("-DWITH_DLT")
 endif (WITH_DLT)
 
+option(WITH_BUNDLED_DEPS "Build with bundled dependencies?" ON)
+
 # ========================================
 # Include projects
 # ========================================
